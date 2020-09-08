@@ -36,10 +36,17 @@ This program currently uses to jupyter notebooks: `build_df.ipynb` to assemble a
 
 The generated pandas dataframe has the following features:
 
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+
 |Feature|Type|Description|
 |------|------|------|------|
 |index|index|self explanatory|
-|name|string|The name of each entry. Naming convention good CNT images is dataset_rawfilename-measurement-augmentation. For example 193_'0.jpg-6-0 means sampleset 193, raw file 0.jpg, measurement 6 within that file, augmentation 0 (no flips or rotations). For negative images '_neg' comes directly after the file name and is then followed by a number, indicating the order it was created. Negative images are not augmented.|
+|name|string|The name of each entry. Naming convention good CNT images is dataset_rawfilename-measurement-augmentation. For example 193_'0.jpg-6-0 means sampleset 193, raw file 0.jpg, measurement 6 within that file, augmentation 0 (no flips or rotations). For negative images `_neg` comes directly after the file name and is then followed by a number, indicating the order it was created. Negative images are not augmented.|
 |img|numpy array|An n x n numpy array containing an image of a region of interest that could or could not contain a measured CNT.|
 |diameter|int|The measured diameter of the CNT, in pixels. Needs to be converted to nm manually. Equals 0 for negative images.|
 |has_cnt|boolean|Indicates if the image contains a good CNT or not.|
