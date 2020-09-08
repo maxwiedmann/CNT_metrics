@@ -67,3 +67,5 @@ function: `read_dir`
 This function is used to run `add_cnt_data` on all files in a provided directory.
 
 Plots generated are located in the [images](./images/) directory.
+
+[reference_files](./reference_files) and [notes](./notes) contain unused files and initial notes on this work, respectively. They should generally be ignored and are only kept for reference.
