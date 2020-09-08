@@ -36,13 +36,6 @@ This program currently uses to jupyter notebooks: `build_df.ipynb` to assemble a
 
 The generated pandas dataframe has the following features:
 
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-
-
 | Feature | Type      | Description |
 |---------|-----------|-------------|
 |index    |index      |self explanatory|
