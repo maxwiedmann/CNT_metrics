@@ -32,9 +32,6 @@ def slice_image(img, img_name = "None", size = 128, reslice = False):
 
     tiles_list  = []
 
-    # pad img after calculating size by adding 
-    # space number of pixels on the bottom and right edges
-
     img_pad = np.zeros([y_px+size, x_px+size])
     img_pad[:y_px,:x_px] = img
 
