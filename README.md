@@ -30,7 +30,7 @@ The code developed is extensible to Step 2,  measuring diameters.
 
 ### Data Analysis
 
-Data is note stored in github. This data was generously provided by Steven Buchsbaum at Lawrence Livermore National Laboratory and I have not asked for permission to share is publicly, yet. Contact me at maxwiedmann@gmail.com if you are interested in the data.
+The data fro this project is not stored in github. This data was generously provided by Steven Buchsbaum at Lawrence Livermore National Laboratory and it not currently available to the public. Contact me at maxwiedmann@gmail.com if you are interested in the data.
 
 This program currently uses to jupyter notebooks: `build_df.ipynb` to assemble a dataframe containing regions of interest and `training_classifying.ipynb` to train a CNN to distinguish images that contain measureable CNTs from images that do not. `build_df.ipynb` will export the generated dataframe to a pickle object, which can be read in by `training_classifying.ipynb`.
 
