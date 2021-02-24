@@ -1,7 +1,7 @@
 ## Executive Summary
 
 This project aims to automate the diameter measurement for CNT TEM images.
-As of September 8, 2020, it can distinguish regions of interest that contain
+Currently, it can distinguish regions of interest that contain
 a CNT suitable for measurement from regions of interest that do not. This is
 the first block toward automate the full process.
 
